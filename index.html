@@ -4,45 +4,50 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="64x64" href="./images/favicon-32x32.png">
-  <!--<link rel="preconnect" href="https://fonts.gstatic.com">-->
-  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&display=swap" rel="stylesheet">
-  <link href="/dist/style.css" rel="stylesheet">
-  <!--<link rel="stylesheet" href="images/icon-hamburger.svg">-->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@1,300;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="app/scss/style.css">
   
   <title>Frontend Mentor | Easybank landing page</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
-  </style>-->
-
+  </style>
 </head>
 <body>
 
-  <header class="header">
-    <nav class="flex flex-jc-sb">
-      
-      <a href="/" class="header__logo"> 
-          <img src="images/logo.svg" alt="Easybank"/>
+  <header class="header"> 
+
+    <nav class="flex flex-jc-sp">
+      <a href="/" class="logo">
+        <img src="images/logo.svg" alt="Easybank" >
       </a>
 
-      <a id="btnHamburger" href="#" class="header__menu">
+      <a href="#" class = "menu">
         <span></span>
         <span></span>
         <span></span>
+        <img src="images/icon-hamburger.svg" alt="Hamburger" style="margin-left: auto;">
+
       </a>
 
+      <div class="links">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Blog</a>
+        <a href="#">Careers</a>
+      </div>
+
+      <button type="button">Request Invite</button>
     </nav>
+    
   </header>
 
-<!-- 
-  Home
-  About
-  Contact
-  Blog
-  Careers
+  <!--
 
   Request Invite
 
@@ -113,14 +118,14 @@
 
   Request Invite
 
-  © Easybank. All Rights Reserved 
- --> 
+  © Easybank. All Rights Reserved
+  
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div> 
 
-
+  -->
   <script src="/app/js/script.js"></script>
 </body>
 </html>
