@@ -17,7 +17,7 @@ body {
 //Flexbox
 .flex {
     display: flex;
-
+    padding : 24px;
 
     &-jc-sb { //les initiales
         justify-content: space-between;
